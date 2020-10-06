@@ -12,3 +12,5 @@ Basta seguir os passos seguintes:
 2. Executar o binário gerado passando o caminho do arquivo a ser lido como no exemplo:
 	
     *./output.bin reader/arquivo.txt*
+	
+3. Será gerado o arquivo report.txt onde estarão todos os dados de saída.
