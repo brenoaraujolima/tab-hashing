@@ -1,6 +1,6 @@
 #include "Node.hpp"
 
-Node::Node(int key) {
+Node::Node(uint64_t key) {
     this->key = key;
     this->removed=false;
 }
@@ -10,7 +10,7 @@ Node::Node() {  // false node.
     this->removed = true;
 }
 
-int Node::getNodeKey() {
+uint64_t Node::getNodeKey() {
     return this->key;
 }
 bool Node::isRemoved() {

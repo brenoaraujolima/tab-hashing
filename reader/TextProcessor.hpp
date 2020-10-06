@@ -1,4 +1,3 @@
-#include<iostream>
 #include<string>
 #include<fstream>
 #include "../hashTable/HashTable.hpp"
@@ -11,6 +10,5 @@ class TextProcessor {
     fstream output;
     public:
     TextProcessor(string fileName,HashTable* h);
-    string mapping(string operation, int value);
 };
 
